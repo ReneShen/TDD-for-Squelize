@@ -4,6 +4,7 @@ class Restaurant extends Model{};
 
 Restaurant.init({
     name: DataTypes.STRING,
+    type: DataTypes.STRING,
     location: DataTypes.STRING
 },{
     sequelize: db
