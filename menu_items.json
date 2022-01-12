@@ -1,0 +1,21 @@
+{
+  "dataMenuItems": [
+    {
+      "name": "Pork burger",
+      "price": 7.5,
+      "description": "Includes pork patty, onion, tomato, and cucumber.",
+      "seasonal": false
+    },
+    {
+      "name": "Cheese pancake",
+      "price": 6.5,
+      "seasonal": false
+    },
+    {
+      "name": "Toasted signature pork sandwich",
+      "price": 9.0,
+      "description": "Includes pork, ham, egg, onion, tomato, and cucumber.",
+      "seasonal": false
+    }
+  ]
+}

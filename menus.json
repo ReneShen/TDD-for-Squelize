@@ -1,0 +1,9 @@
+{
+    "dataMenus":[
+        {"type":"Breakfast"},
+        {"type":"Brunch"},
+        {"type":"Lunch"},
+        {"type":"Dinner"},
+        {"type":"Dessert"}
+    ]
+}

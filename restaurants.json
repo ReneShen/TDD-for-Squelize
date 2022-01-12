@@ -1,0 +1,25 @@
+{
+  "dataRestaurants": [
+    {
+      "name": "Cafe Mei",
+      "type": "Taiwanese Breakfast Place",
+      "location": "Taipei, Taiwan",
+      "happyHour": false
+    },{
+        "name": "Chick-fil-A",
+        "type": "American fast food chain",
+        "location": "Miami, FL, U.S.A",
+        "happyHour": false
+    },{
+        "name": "Bill's Cafe",
+        "type": "American Brunch Place",
+        "location": "Santa Clara, CA, U.S.A",
+        "happyHour": true
+    },{
+        "name": "Maggiano's Little Italy",
+        "type": "Italian Restaurant",
+        "location": "Chicago, IL, U.S.A",
+        "happyHour": true
+    }
+  ]
+}
