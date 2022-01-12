@@ -1,14 +1,17 @@
-const{db, DataTypes, Model} = require("../db.js");
+const { db, DataTypes, Model } = require("../db.js");
 
-class MemuItems extends Model{};
+class MenuItem extends Model {}
 
-MemuItems.init({
+MenuItem.init(
+  {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
     price: DataTypes.NUMBER,
-    calories: DataTypes.NUMBER
-},{
-    sequelize: db
-});
+    calories: DataTypes.NUMBER,
+  },
+  {
+    sequelize: db,
+  }
+);
 
-module.exports= {MemuItems};
+module.exports = { MenuItem };

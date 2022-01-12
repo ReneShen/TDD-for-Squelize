@@ -1,12 +1,14 @@
-const{db, DataTypes, Model} = require("../db.js");
+const { db, DataTypes, Model } = require("../db.js");
 
-class Menu extends Model{};
+class Menu extends Model {}
 
-Menu.init({
-    type: DataTypes.ENUM("Breakfast","Brunch","Lunch","Dinner","Dessert"),
-    happyHour: DataTypes.TIME
-},{
-    sequelize: db
-});
+Menu.init(
+  {
+    type: DataTypes.ENUM("Breakfast", "Brunch", "Lunch", "Dinner", "Dessert")
+  },
+  {
+    sequelize: db,
+  }
+);
 
-module.exports= {Menu};
+module.exports = { Menu };
